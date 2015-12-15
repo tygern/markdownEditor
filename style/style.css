@@ -76,6 +76,10 @@ textarea {
   padding: 0;
 }
 
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
 textarea:focus {
   outline: none;
   color: inherit;
