@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card">
+    <textarea
+      class="display"
+      #rawMarkdown
+      (keyup)="updateValue(rawMarkdown.value)"
+    >{{ initVal }}</textarea>
+  </div>
+
+  <div class="card">
+    <div class="display" innerHtml="{{html}}"></div>
+  </div>
+</div>

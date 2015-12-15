@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown App</title>
+  <meta name="theme-color" content="#36A168">
+
+  <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script src="node_modules/rxjs/bundles/Rx.js"></script>
+  <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+
+  <script>
+    System.config({
+      packages: {'app': {defaultExtension: 'js'}}
+    });
+    System.import('app/boot');
+  </script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <span>Markdown Editor</span>
+</div>
+<editor>Loading...</editor>
+</body>
+
+</html>
