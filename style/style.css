@@ -54,7 +54,7 @@ h6 {
   font-style: italic;
 }
 
-p, ul, ol {
+p, ul, ol, pre {
   margin-bottom: .6rem;
   line-height: 1.3rem;
 }
