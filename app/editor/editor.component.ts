@@ -14,7 +14,7 @@ interface Converter {
 
 @Component({
     selector: 'editor',
-    templateUrl: '/app/editor/editor.html',
+    templateUrl: './app/editor/editor.html',
     bindings: [MarkdownConverter, LocalStoragePersistence]
 })
 export class EditorComponent {
